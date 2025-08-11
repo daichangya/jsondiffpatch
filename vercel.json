@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm ci && npm run build --workspace=packages/jsondiffpatch && npm run build --workspace=demos/html-demo",
+  "outputDirectory": "demos/html-demo/build",
+  "framework": null,
+  "routes": [
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
