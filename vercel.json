@@ -4,6 +4,5 @@
   "outputDirectory": "demos/html-demo/build",
   "installCommand": "npm ci",
   "framework": null,
-  "devCommand": "npm run dev --workspace=demos/html-demo",
-  "nodeVersion": "lts/*"
+  "devCommand": "npm run dev --workspace=demos/html-demo"
 }
