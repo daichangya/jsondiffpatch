@@ -2,7 +2,7 @@
   <img src="demos/html-demo/logo.svg" width="48px" align="center" alt="jsondiffpatch logo" />
   <h1 align="center">jsondiffpatch</h1>
   <p align="center">
-    <a href="https://jsondiffpatch.com">jsondiffpatch.com</a>
+    <a href="https://jsdiff.com">jsdiff.com</a>
     <br/>
     Diff & patch JavaScript objects
   </p>
@@ -10,16 +10,16 @@
 
 <!--- badges -->
 <p align="center">
-  <a href="https://github.com/benjamine/jsondiffpatch/actions?query=branch%3Amaster"><img src="https://github.com/benjamine/jsondiffpatch/actions/workflows/CI.yml/badge.svg?event=push&branch=master" alt="JsonDiffPatch CI status" /></a>
+  <a href="https://github.com/daichangya/jsondiffpatch/actions?query=branch%3Amaster"><img src="https://github.com/daichangya/jsondiffpatch/actions/workflows/CI.yml/badge.svg?event=push&branch=master" alt="JsonDiffPatch CI status" /></a>
   <a href="https://twitter.com/beneidel" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@beneidel-BACABA.svg" alt="Created by Benjamin Eidelman"></a>
-  <a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://img.shields.io/github/license/benjamine/jsondiffpatch" alt="License"></a>
+  <a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://img.shields.io/github/license/daichangya/jsondiffpatch" alt="License"></a>
   <a href="https://www.npmjs.com/package/jsondiffpatch" rel="nofollow"><img src="https://img.shields.io/npm/dw/jsondiffpatch.svg" alt="npm"></a>
-  <a href="https://github.com/benjamine/jsondiffpatch" rel="nofollow"><img src="https://img.shields.io/github/stars/benjamine/jsondiffpatch" alt="stars"></a>
+  <a href="https://github.com/daichangya/jsondiffpatch" rel="nofollow"><img src="https://img.shields.io/github/stars/daichangya/jsondiffpatch" alt="stars"></a>
 </p>
 
 ---
 
-## **[Live Demo](https://jsondiffpatch.com)**
+## **[Live Demo](https://jsdiff.com)**
 
 - min+gzipped ~ 16KB
 - browser and server (ESM-only)
@@ -29,7 +29,7 @@
 - reverse a delta, unpatch (eg. revert object to its original state using a delta)
 - multiple output formats:
   - pure JSON, low footprint [delta format](docs/deltas.md)
-  - <span style="background-color: #bbffbb; color: black;">visual</span> <span style="background-color: #ffbbbb; color:black; text-decoration: line-through">diff</span> (html), see [demo](https://jsondiffpatch.com)
+  - <span style="background-color: #bbffbb; color: black;">visual</span> <span style="background-color: #ffbbbb; color:black; text-decoration: line-through">diff</span> (html), see [demo](https://jsdiff.com)
   - annotated JSON (html), to help explain the delta format with annotations
   - JSON Patch ([RFC 6902](https://datatracker.ietf.org/doc/html/rfc6902)), can generate patches, and also apply them
   - console (colored), try running `./node_modules/.bin/jsondiffpatch left.json right.json`
@@ -290,7 +290,7 @@ const jsondiffpatchInstance = jsondiffpatch.create({
 </html>
 ```
 
-To see formatters in action check the [Live Demo](https://jsondiffpatch.com).
+To see formatters in action check the [Live Demo](https://jsdiff.com).
 
 For more details check [Formatters documentation](docs/formatters.md)
 
@@ -313,8 +313,8 @@ Check [Plugins documentation](docs/plugins.md) for details.
 
 ## All contributors ✨
 
-<a href="https://github.com/benjamine/jsondiffpatch/graphs/contributors">
+<a href="https://github.com/daichangya/jsondiffpatch/graphs/contributors">
   <p align="center">
-    <img width="720" src="https://contrib.rocks/image?repo=benjamine/jsondiffpatch" alt="A table of avatars from the project's contributors" />
+    <img width="720" src="https://contrib.rocks/image?repo=daichangya/jsondiffpatch" alt="A table of avatars from the project's contributors" />
   </p>
 </a>

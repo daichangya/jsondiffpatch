@@ -1,4 +1,4 @@
-# https://jsondiffpatch.com llms.txt
+# https://jsdiff.com llms.txt
 
 jsondiffpatch is an npm package.
 it compares 2 json (or any 2 objects in javascript or typescript), and get a json diff with the changes.
@@ -19,7 +19,7 @@ const delta = diff(left, right);
 - reverse a delta, unpatch (eg. revert object to its original state using a delta)
 - simplistic, pure JSON, low footprint [delta format](docs/deltas.md)
 - multiple output formatters:
-  - html (check it at the [Live Demo](https://jsondiffpatch.com))
+  - html (check it at the [Live Demo](https://jsdiff.com))
   - annotated json (html), makes the JSON delta format self-explained
   - console (colored), try running `./node_modules/.bin/jsondiffpatch left.json right.json`
   - JSON Patch format RFC 6902 support
@@ -28,5 +28,5 @@ const delta = diff(left, right);
 
 ## links
 
-- [github repo](https://github.com/benjamine/jsondiffpatch)
+- [github repo](https://github.com/daichangya/jsondiffpatch)
 - [npm package](https://www.npmjs.com/package/jsondiffpatch)

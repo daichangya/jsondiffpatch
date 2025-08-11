@@ -2,7 +2,7 @@
   <img src="./logo.svg" width="48px" align="center" alt="jsondiffpatch logo" />
   <h1 align="center">diff-mcp</h1>
   <p align="center">
-    <a href="https://jsondiffpatch.com">jsondiffpatch.com</a>
+    <a href="https://jsdiff.com">jsdiff.com</a>
     <br/>
     MCP Server to compare text or data and get a diff
   </p>
@@ -10,16 +10,16 @@
 
 <!--- badges -->
 <p align="center">
-  <a href="https://github.com/benjamine/jsondiffpatch/actions?query=branch%3Amaster"><img src="https://github.com/benjamine/jsondiffpatch/actions/workflows/CI.yml/badge.svg?event=push&branch=master" alt="JsonDiffPatch CI status" /></a>
+  <a href="https://github.com/daichangya/jsondiffpatch/actions?query=branch%3Amaster"><img src="https://github.com/daichangya/jsondiffpatch/actions/workflows/CI.yml/badge.svg?event=push&branch=master" alt="JsonDiffPatch CI status" /></a>
   <a href="https://twitter.com/beneidel" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@beneidel-BACABA.svg" alt="Created by Benjamin Eidelman"></a>
-  <a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://img.shields.io/github/license/benjamine/jsondiffpatch" alt="License"></a>
+  <a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://img.shields.io/github/license/daichangya/jsondiffpatch" alt="License"></a>
   <a href="https://www.npmjs.com/package/jsondiffpatch" rel="nofollow"><img src="https://img.shields.io/npm/dw/jsondiffpatch.svg" alt="npm"></a>
-  <a href="https://github.com/benjamine/jsondiffpatch" rel="nofollow"><img src="https://img.shields.io/github/stars/benjamine/jsondiffpatch" alt="stars"></a>
+  <a href="https://github.com/daichangya/jsondiffpatch" rel="nofollow"><img src="https://img.shields.io/github/stars/daichangya/jsondiffpatch" alt="stars"></a>
 </p>
 
 ---
 
-powered by [jsondiffpatch](https://github.com/benjamine/jsondiffpatch)
+powered by [jsondiffpatch](https://github.com/daichangya/jsondiffpatch)
 
 ## Features
 
@@ -61,9 +61,9 @@ Add this to your `claude_desktop_config.json`:
 
 ## All contributors ✨
 
-<a href="https://github.com/benjamine/jsondiffpatch/graphs/contributors">
+<a href="https://github.com/daichangya/jsondiffpatch/graphs/contributors">
   <p align="center">
-    <img width="720" src="https://contrib.rocks/image?repo=benjamine/jsondiffpatch" alt="A table of avatars from the project's contributors" />
+    <img width="720" src="https://contrib.rocks/image?repo=daichangya/jsondiffpatch" alt="A table of avatars from the project's contributors" />
   </p>
 </a>
 
