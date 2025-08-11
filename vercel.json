@@ -1,8 +1,0 @@
-{
-  "version": 2,
-  "buildCommand": "npm ci && npm run build --workspace=packages/jsondiffpatch && npm run build --workspace=demos/html-demo",
-  "outputDirectory": "demos/html-demo/build",
-  "installCommand": "npm ci",
-  "framework": null,
-  "devCommand": "npm run dev --workspace=demos/html-demo"
-}
