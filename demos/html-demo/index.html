@@ -1,34 +1,34 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>JSDiff - Online JSON Diff Tool | Compare JSON Files</title>
-    <meta
-      name="description"
-      content="Free online JSON diff tool to compare JSON files, find differences, and visualize changes. Supports syntax highlighting and no registration required."
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="baidu-site-verification" content="codeva-yTuveM3Pb3" />
-    <link rel="canonical" href="https://jsdiff.com/" />
-    <link rel="icon" href="logo.svg" type="image/svg+xml" />
+<head>
+  <title>JSDiff - JSON Compare, JSON Diff Online | Compare JSON Files</title>
+  <meta
+    name="description"
+    content="Free online JSON compare tool to diff JSON files easily. Compare JSON online, find differences, and visualize changes with syntax highlighting. No registration needed for JSON diff."
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="baidu-site-verification" content="codeva-yTuveM3Pb3" />
+  <link rel="canonical" href="https://jsdiff.com/" />
+  <link rel="icon" href="logo.svg" type="image/svg+xml" />
 
-    <meta name="twitter:title" content="JSDiff - Online JSON Diff Tool | Compare JSON Files" />
-    <meta
-      name="twitter:description"
-      content="Free online JSON diff tool to compare JSON files, find differences, and visualize changes. Supports syntax highlighting and no registration required."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="JSDiff - Online JSON Diff Tool | Compare JSON Files" />
-    <meta
-      property="og:description"
-      content="Free online JSON diff tool to compare JSON files, find differences, and visualize changes. Supports syntax highlighting and no registration required."
-    />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:url" content="https://jsdiff.com/" />
- 
+  <meta name="twitter:title" content="JSDiff - JSON Compare, JSON Diff Online | Compare JSON Files" />
+  <meta
+    name="twitter:description"
+    content="Free online JSON compare tool to diff JSON files easily. Compare JSON online, find differences, and visualize changes with syntax highlighting. No registration needed for JSON diff."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="JSDiff - JSON Compare, JSON Diff Online | Compare JSON Files" />
+  <meta
+    property="og:description"
+    content="Free online JSON compare tool to diff JSON files easily. Compare JSON online, find differences, and visualize changes with syntax highlighting. No registration needed for JSON diff."
+  />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:url" content="https://jsdiff.com/" />
 
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self';
+
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'self';
     script-src 'report-sample' 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.js https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/javascript/javascript.min.js https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtag/js http://www.google-analytics.com/analytics.js https://hm.baidu.com;
     style-src 'report-sample' 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;
     object-src 'none';
@@ -40,12 +40,31 @@
     manifest-src 'self';
     media-src 'self';
     worker-src 'none';"
-    />
+  />
 
-    <meta name="color-scheme" content="dark light" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta content="utf-8" http-equiv="encoding" />
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <meta name="color-scheme" content="dark light" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta content="utf-8" http-equiv="encoding" />
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+
+  <!-- 结构化数据 - 帮助搜索引擎理解页面功能 -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "JSDiff",
+      "description": "A free online tool for JSON compare, JSON diff, and comparing JSON files online.",
+      "url": "https://jsdiff.com/json",
+      "applicationCategory": "DeveloperTool",
+      "operatingSystem": "All",
+      "featureList": [
+        "JSON compare online",
+        "JSON diff visualization",
+        "Compare JSON files easily",
+        "Syntax highlighting for JSON diff"
+      ]
+    }
+  </script>
 
     <!-- Google tag (gtag.js) -->
     <script
@@ -196,13 +215,13 @@
     </style>
     <header>
       <div>
-        <h1>JsonDiffPatch</h1>
-        <div aria-hidden="true" id="diffed-h1">
-          Js<span class="jsondiffpatch-textdiff-deleted"><span>on</span></span
-          ><span class="jsondiffpatch-textdiff-added"><span>Diff</span></span
-          >Patch
-        </div>
-        <span id="description"></span>
+        <h1>Json Compare Online - JSON Diff Tool</h1>
+<!--        <div aria-hidden="true" id="diffed-h1">-->
+<!--          Js<span class="jsondiffpatch-textdiff-deleted"><span>on</span></span-->
+<!--          ><span class="jsondiffpatch-textdiff-added"><span>Compare Online</span></span-->
+<!--          >JSON Diff Tool-->
+<!--        </div>-->
+<!--        <span id="description">Compare JSON files online and visualize differences</span>-->
         <a id="external-link" style="display: none" target="_blank">source</a>
       </div>
       <nav>
@@ -336,7 +355,7 @@
     <div class="json-input">
       <div id="json-panel-left">
         <label for="json-input-left">
-          <h2>JSON Left</h2>
+          <h2>JSON Left (Compare JSON)</h2>
         </label>
         <button class="reformat button" type="button" title="Pretty print">
           { }
@@ -349,7 +368,7 @@
       </div>
       <div id="json-panel-right">
         <label for="json-input-right">
-          <h2>JSON Right</h2>
+          <h2>JSON Right (JSON Compare)</h2>
         </label>
         <button class="reformat button" type="button" title="Pretty print">
           { }
@@ -364,9 +383,9 @@
     <section id="results" data-delta-type="visual">
       <div class="tabs is-boxed">
         <ul class="delta-type-switch">
-          <li class="is-active"><a href="#delta-visual">Visual Diff</a></li>
-          <li><a href="#delta-json">JSON</a></li>
-          <li><a href="#delta-annotated">JSON (Annotated)</a></li>
+          <li class="is-active"><a href="#delta-visual">Visual JSON Compare</a></li>
+          <li><a href="#delta-json">JSON Diff</a></li>
+          <li><a href="#delta-annotated">JSON Compare (Annotated)</a></li>
           <li><a href="#delta-jsonpatch">JSONPatch (RFC 6902)</a></li>
         </ul>
       </div>
@@ -401,20 +420,20 @@
       </div>
     </section>
     <section id="features" class="content">
-      <h2>Features</h2>
+      <h2>JSON Compare & Diff Features</h2>
       <ul>
         <li>
-          compare 2 json. this tool also supports json5, json with comments, or
+          Compare JSON online - this tool lets you compare two JSON files. Also supports JSON5, JSON with comments, or
           plain text
         </li>
         <li>
-          output visual diff, json (see
+          Visualize JSON differences - output visual diff, JSON comparison results (see
           <a
             href="https://github.com/daichangya/jsondiffpatch/blob/master/docs/deltas.md"
             rel="nofollow"
             target="_blank"
             >delta format</a
-          >), or json patch (<a
+          >), or JSON patch (<a
             href="https://datatracker.ietf.org/doc/html/rfc6902"
             target="_blank"
             rel="nofollow"
@@ -422,12 +441,11 @@
           >)
         </li>
         <li>
-          smart diff arrays/lists. if items are objects a "key", "id", or "name"
+          Smart JSON compare algorithm - intelligently diff arrays/lists. If items are objects, a "key", "id", or "name"
           is automatically used to match
         </li>
         <li>
-          text diff. for long string or text, a text diff is done at characther
-          level (using
+          Advanced text comparison - for long strings or text content, our JSON compare tool performs character-level text diff analysis (using
           <a href="https://github.com/google/diff-match-patch" target="_blank"
             >google/diff-match-patch</a
           >)
@@ -441,7 +459,7 @@
         </pre>
         </li>
         <li>
-          compare json from a
+          Compare JSON files from GitHub - easily compare JSON data from a
           <svg
             width="1rem"
             height="1rem"
@@ -485,7 +503,7 @@
           href="https://github.com/daichangya/jsondiffpatch"
           >jsondiffpatch</a
         >
-        library
+        library - the best free online JSON compare and diff tool
       </p>
       <p align="center">
         <a href="https://twitter.com/beneidel" rel="nofollow"
